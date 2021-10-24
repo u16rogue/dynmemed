@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynmemed_dll", "dynmemed_dll\dynmemed_dll.vcxproj", "{7BB628EB-4103-4004-93EE-7311EB3198CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "thirdparty", "thirdparty", "{7629241E-F9D0-4BEB-9904-B7F8AEA77505}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minhook", "thirdparty\minhook\minhook.vcxitems", "{2956636E-C74F-4083-9493-873DA4E44CBF}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		thirdparty\minhook\minhook.vcxitems*{2956636e-c74f-4083-9493-873da4e44cbf}*SharedItemsImports = 9
+		thirdparty\minhook\minhook.vcxitems*{7bb628eb-4103-4004-93ee-7311eb3198cd}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BB628EB-4103-4004-93EE-7311EB3198CD}.Debug|x86.ActiveCfg = Debug|Win32
+		{7BB628EB-4103-4004-93EE-7311EB3198CD}.Debug|x86.Build.0 = Debug|Win32
+		{7BB628EB-4103-4004-93EE-7311EB3198CD}.Release|x86.ActiveCfg = Release|Win32
+		{7BB628EB-4103-4004-93EE-7311EB3198CD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2956636E-C74F-4083-9493-873DA4E44CBF} = {7629241E-F9D0-4BEB-9904-B7F8AEA77505}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CE13344-FFD5-408A-AFF3-DE2B386E58F9}
+	EndGlobalSection
+EndGlobal
